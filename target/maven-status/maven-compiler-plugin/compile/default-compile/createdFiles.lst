@@ -1,3 +1,5 @@
 com\mycompany\evidencia2\resources\JakartaEE10Resource.class
 com\mycompany\evidencia2\JakartaRestConfiguration.class
 controladores\Usuario.class
+controladores\ConsultaServlet.class
+controladores\RegistroServlet.class
