@@ -8,6 +8,10 @@
         <servlet-name>RegistroServlet</servlet-name>
         <servlet-class>controladores.RegistroServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ConsultaServlet</servlet-name>
+        <servlet-class>controladores.ConsultaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Usuario</servlet-name>
         <url-pattern>/Usuario</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>RegistroServlet</servlet-name>
         <url-pattern>/RegistroServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConsultaServlet</servlet-name>
+        <url-pattern>/ConsultaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
