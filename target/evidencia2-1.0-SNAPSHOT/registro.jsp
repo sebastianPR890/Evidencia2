@@ -35,7 +35,7 @@
             </div>
         <% } %>
         
-        <form action="registro" method="POST">
+        <form action="RegistroServlet" method="POST">
             <div class="form-group">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
